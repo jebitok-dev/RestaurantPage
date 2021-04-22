@@ -1,2 +1,1 @@
-const user = 12;
-console.log(user);
+import { loadPage } from './onload';
