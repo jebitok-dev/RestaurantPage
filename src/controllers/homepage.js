@@ -3,18 +3,20 @@ const homePage = (() => {
     const home = document.createElement('div');
     home.classList.add('tab-content')
     home.innerHTML = `<div id='home' class='active' data-tab-content>
-    <div class='hero'>
-        <h1>Find the right place to eat, meet and celebrate</h1>
-        <p>find</p>
-        <form action="/action_page.php">
-            <div class="form-group">
-                <input type="email" class="form-control" placeholder="find" id="email">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="what do you want to eat?" id="pwd">
-            </div>
-                <button type="submit" class="btn btn-primary" data-tab-target="#menu">SEARCH</button>
-        </form>
+    <div class='hero bg-img img'>
+        <div class='center'>
+        <h2>Find the right place</h2>
+        <h2>to eat, meet and celebrate</h2>
+            <form action="/" class="form-details">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="find" id="email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="what do you want to eat?" id="pwd">
+                </div>
+                    <button type="submit" class="btn btn-primary" data-tab-target="#menu">SEARCH</button>
+            </form>
+        </div>
     </div>
     <div>
         <h3>Reservation</h3>
@@ -23,7 +25,7 @@ const homePage = (() => {
     </div>
     <div class='info'>
         <div class='address'>
-            <p>Deal Restaurant | Terms Privacy © Deal Restaurant | 2020. All Rights Reserved.</p>
+            <p>324 Lessos<br />Nandi, Kenya 30302</p>
         </div>
         <div class="hours">
             <p>
@@ -36,3 +38,4 @@ const homePage = (() => {
     `;
     contentContainer.appendChild(home);
 })();
+export { homePage };

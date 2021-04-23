@@ -10,9 +10,9 @@ const loadPage = (() => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Specials</a>
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link active" aria-current="page" data-tab-target="#home">Home</a>
+              <a class="nav-link" data-tab-target="#menu">Specials</a>
+              <a class="nav-link" data-tab-target="#contact">Menu</a>
             </div>
           </div>
         </div>
@@ -20,4 +20,4 @@ const loadPage = (() => {
     `;
     contentContainer.appendChild(header)
 })();
-export {loadPage}
+export { loadPage };

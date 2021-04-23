@@ -1,10 +1,36 @@
-import { loadPage } from './controllers/onload';
-import { homePage } from './controllers/homepage';
-import { contactUs } from './controllers/contactus';
+import { loadPage } from './controllers/onload.js';
+import { homePage } from './controllers/homepage.js';
+import { contactUs } from './controllers/contact-us.js';
+import { menuPage } from './controllers/menu.js';
 
 tabs = document.querySelectorAll('[data-tab-target]');
 const tabContent = document.querySelectorAll('[data-tab-content]');
+const burger = document.querySelector('.hamburger');
+
+burger.addEventListener('click', () => {
+    document.querySelector('ul').classList.toggle('active');
+    burger.classList.toogle('toggle');
+});
+
+tabs.forEach((tab) =>
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.tabTarget);
+        tabContents.forEach((tabContent) => {
+            tabContent.classList.remove('active');
+        });
+        tabs.forEach((tab) => {
+            tab.classList.remove('toggle');
+        });
+        tab.classList.add('red');
+        target.classList.add('active');
+    })
+);
+
+document.querySelector('.order-now').addEventListener('click', () => {
+    document.querySelector(`[data-tab-target='#menu']`).classList.add('red');
+});
 
 document.querySelector(`[type='submit']`).addEventListener('click', () => {
     document.querySelector('form').reset();
 });
+

@@ -30,3 +30,5 @@ const contactUs = (() => {
     `
     contentContainer.appendChild(contact);
 })();
+
+export { contactUs };
