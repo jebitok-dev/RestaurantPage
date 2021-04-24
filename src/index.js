@@ -1,9 +1,9 @@
 import { loadPage } from './controllers/onload.js';
-import { homePage } from './controllers/homepage.js';
-import { contactUs } from './controllers/contact-us.js';
-import { menuPage } from './controllers/menu.js';
+import { renderHomePage } from './controllers/homepage.js';
+import { renderContactUs } from './controllers/contact-us.js';
+import { renderMenuPage } from './controllers/menu.js';
 
-tabs = document.querySelectorAll('[data-tab-target]');
+const tabs = document.querySelectorAll('[data-tab-target]');
 const tabContent = document.querySelectorAll('[data-tab-content]');
 const burger = document.querySelector('.hamburger');
 

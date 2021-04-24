@@ -1,4 +1,4 @@
-const menuPage = (() => {
+const renderMenuPage = (() => {
     const contentContainer = document.querySelector('#content');
     const menu = document.createElement('div');
     menu.setAttribute('id', 'menu');
@@ -55,4 +55,4 @@ const menuPage = (() => {
 
     contentContainer.appendChild(menu);
 })();
-export { menuPage };
+export { renderMenuPage };

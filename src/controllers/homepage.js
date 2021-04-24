@@ -1,4 +1,4 @@
-const homePage = (() => {
+const renderHomePage = (() => {
     const contentContainer = document.querySelector('#content');
     const home = document.createElement('div');
     home.classList.add('tab-content')
@@ -38,4 +38,4 @@ const homePage = (() => {
     `;
     contentContainer.appendChild(home);
 })();
-export { homePage };
+export { renderHomePage };

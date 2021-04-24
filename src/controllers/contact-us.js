@@ -1,10 +1,10 @@
-const contactUs = (() => {
+const renderContactUs = (() => {
     const contentContainer = document.querySelector('#content');
     const contact = document.createElement('div');
     contact.setAttribute('id', 'contact');
     contact.setAttribute('data-tab-content', '');
     const innerHTML = `
-    <div>
+    <div class='hero'>
     <form action="">
         <div class="form-group">
             <input type="name" class="form-control" placeholder="Your Name" id="text">
@@ -30,5 +30,4 @@ const contactUs = (() => {
     `
     contentContainer.appendChild(contact);
 })();
-
-export { contactUs };
+export { renderContactUs };
