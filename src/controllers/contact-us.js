@@ -1,8 +1,8 @@
 const renderContactUs = (() => {
-    const contentContainer = document.querySelector('#content');
-    const contact = document.createElement('div');
-    contact.setAttribute('id', 'contact');
-    contact.setAttribute('data-tab-content', '');
+const contentContainer = document.querySelector('#content');
+const contact = document.createElement('div');
+contact.setAttribute('id', 'contact');
+contact.setAttribute('data-tab-content', '');
     const innerHTML = `
     <div class='hero'>
     <form action="">
@@ -27,7 +27,7 @@ const renderContactUs = (() => {
             <button type="submit" class="btn btn-primary" data-tab-target="#menu">BOOK A TABLE</button>
     </form>
     </div>
-    `
+    `;
     contentContainer.appendChild(contact);
 })();
 export { renderContactUs };
