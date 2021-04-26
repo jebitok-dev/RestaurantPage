@@ -1,9 +1,9 @@
 const renderContactUs = (() => {
-    const contentContainer = document.querySelector('#content');
-    const contact = document.createElement('div');
-    contact.setAttribute('id', 'contact');
-    contact.setAttribute('data-tab-content', '');
-    contact.innerHTML = `
+  const contentContainer = document.querySelector('#content');
+  const contact = document.createElement('div');
+  contact.setAttribute('id', 'contact');
+  contact.setAttribute('data-tab-content', '');
+  contact.innerHTML = `
     <div class='hero'>
     <div class='contact-container container'>
         <form action=' class='info'>
@@ -30,6 +30,6 @@ const renderContactUs = (() => {
     </div>
     </div>
     `;
-contentContainer.appendChild(contact);
+  contentContainer.appendChild(contact);
 })();
-export default renderContactUs;
+export default renderContactUs; 
