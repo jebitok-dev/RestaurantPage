@@ -25,11 +25,11 @@ const renderContactUs = (() => {
             <div class='form-group'>
                 <input type='time' class='form-control' placeholder='--:-- --' id='time'>
             </div>
-                <button type='submit' class='btn btn-primary' data-tab-target='#menu'>BOOK A TABLE</button>
+                <button type='submit' class='btn btn-light' data-tab-target='#menu'>BOOK A TABLE</button>
         </form>
     </div>
     </div>
     `;
   contentContainer.appendChild(contact);
 })();
-export default renderContactUs; 
+export { renderContactUs };

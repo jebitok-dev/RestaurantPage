@@ -46,7 +46,7 @@ const renderMenuPage = (() => {
         </section> 
 
         <section class='card'>
-            <img src='./images/Recipes/RC9.png' class=img-top'alt='RC9'>
+            <img src='./images/Recipes/RC9.png' class=img-top' alt='RC9'>
             <div class='time'>
                 <p> <i class='far fa-clock'></i> <span class='space2'></span> 30 MINS </p>
             </div>
@@ -57,4 +57,4 @@ const renderMenuPage = (() => {
 
   contentContainer.appendChild(menu);
 })();
-export default renderMenuPage;
+export {renderMenuPage};

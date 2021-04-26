@@ -336,6 +336,10 @@ li:hover {
   background-image: url(./images/homepage/banner\ bg.png);
 }
 
+.btn-color {
+  color: var(--pink);
+}
+
 #contact .contact-container .input-box input,
 #contact .contact-container .input-box textarea {
   width: 98%;

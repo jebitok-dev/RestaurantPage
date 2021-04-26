@@ -13,7 +13,7 @@ const renderHomePage = (() => {
                 <div class='form-group'>
                     <input type='password' class='form-control' placeholder='what do you want to eat?' id='pwd'>
                 </div>
-                    <button type='submit' class='btn btn-primary' data-tab-target='#menu'>SEARCH</button>
+                    <button type='submit' class='btn btn-light' data-tab-target='#menu'>SEARCH</button>
             </form>
         </div>
     </div>
@@ -37,4 +37,4 @@ const renderHomePage = (() => {
     `;
   contentContainer.appendChild(home);
 })();
-export default renderHomePage;
+export { renderHomePage };
