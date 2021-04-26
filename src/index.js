@@ -1,10 +1,10 @@
-import { loadPage } from './controllers/onload.js';
-import { renderHomePage } from './controllers/homepage.js';
-import { renderContactUs } from './controllers/contact-us.js';
-import { renderMenuPage } from './controllers/menu.js';
+import { loadPage } from './onload.js';
+import { renderHomePage } from './homepage.js';
+import { renderContactUs } from './contact-us.js';
+import { renderMenuPage } from './menu.js';
 
 const tabs = document.querySelectorAll('[data-tab-target]');
-const tabContent = document.querySelectorAll('[data-tab-content]');
+const tabContents = document.querySelectorAll('[data-tab-content]');
 const burger = document.querySelector('.hamburger');
 
 burger.addEventListener('click', () => {
