@@ -32,4 +32,4 @@ const renderContactUs = (() => {
     `;
   contentContainer.appendChild(contact);
 })();
-export default renderContactUs; 
+export default contact; 

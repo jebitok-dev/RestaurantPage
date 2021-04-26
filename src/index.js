@@ -1,7 +1,7 @@
-import loadPage from './onload';
-import renderHomePage from './homepage';
-import renderContactUs from './contact-us';
-import renderMenuPage from './menu';
+import header from './onload';
+import home from './homepage';
+import contact from './contact-us';
+import menu from './menu';
 
 const tabs = document.querySelectorAll('[data-tab-target]');
 const tabContents = document.querySelectorAll('[data-tab-content]');
@@ -26,8 +26,7 @@ tabs.forEach((tab) =>
       tab.classList.add('red');
       target.classList.add('active');
     }
-    )
-);
+  ));
 document.querySelector('.order-now').addEventListener('click', () => {
   document.querySelector(`[data-tab-target='#menu']`).classList.add('red');
 });

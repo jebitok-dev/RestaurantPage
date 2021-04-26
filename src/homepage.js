@@ -37,4 +37,4 @@ const renderHomePage = (() => {
     `;
   contentContainer.appendChild(home);
 })();
-export default renderHomePage;
+export default home;
