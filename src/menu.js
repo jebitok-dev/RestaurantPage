@@ -57,4 +57,4 @@ const renderMenuPage = (() => {
 
   contentContainer.appendChild(menu);
 })();
-export default menu;
+export default renderMenuPage;

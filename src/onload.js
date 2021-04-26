@@ -18,4 +18,4 @@ const loadPage = (() => {
     `;
   contentContainer.appendChild(header);
 })();
-export default header;
+export default loadPage;
