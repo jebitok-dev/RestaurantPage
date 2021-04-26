@@ -1,8 +1,8 @@
 const renderContactUs = (() => {
-const contentContainer = document.querySelector('#content');
-const contact = document.createElement('div');
-contact.setAttribute('id', 'contact');
-contact.setAttribute('data-tab-content', '');
+    const contentContainer = document.querySelector('#content');
+    const contact = document.createElement('div');
+    contact.setAttribute('id', 'contact');
+    contact.setAttribute('data-tab-content', '');
     contact.innerHTML = `
     <div class='hero'>
     <div class='contact-container container'>
@@ -30,6 +30,6 @@ contact.setAttribute('data-tab-content', '');
     </div>
     </div>
     `;
-    contentContainer.appendChild(contact);
+contentContainer.appendChild(contact);
 })();
-export { renderContactUs };
+export default renderContactUs;

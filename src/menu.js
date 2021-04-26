@@ -1,9 +1,9 @@
 const renderMenuPage = (() => {
-    const contentContainer = document.querySelector('#content');
-    const menu = document.createElement('div');
-    menu.setAttribute('id', 'menu');
-    menu.setAttribute('data-tab-content', '');
-    menu.innerHTML = `
+const contentContainer = document.querySelector('#content');
+const menu = document.createElement('div');
+menu.setAttribute('id', 'menu');
+menu.setAttribute('data-tab-content', '');
+menu.innerHTML = `
     <div class='hero container'>
     <div class='menu-container'>
         <section class='card '>
@@ -55,6 +55,6 @@ const renderMenuPage = (() => {
     </div>
     </div>`;
 
-    contentContainer.appendChild(menu);
+contentContainer.appendChild(menu);
 })();
-export { renderMenuPage };
+export default renderMenuPage;

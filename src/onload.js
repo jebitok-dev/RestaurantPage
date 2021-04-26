@@ -1,7 +1,7 @@
 const loadPage = (() => {
-    const contentContainer = document.querySelector('#content');
-    const header = document.createElement('header');
-    header.innerHTML = `
+  const contentContainer = document.querySelector('#content');
+  const header = document.createElement('header');
+  header.innerHTML = `
     <nav>
       <img src='./images/Logo.png'>
       <a href='#' class='hamburger'>
@@ -16,6 +16,6 @@ const loadPage = (() => {
       </ul>
     </nav>
     `;
-    contentContainer.appendChild(header)
+  contentContainer.appendChild(header);
 })();
-export { loadPage };
+export default loadPage;

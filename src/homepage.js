@@ -1,8 +1,8 @@
 const renderHomePage = (() => {
-const contentContainer = document.querySelector('#content');
-const home = document.createElement('div');
-home.classList.add('tab-content');
-home.innerHTML = `<div id='home' class='active' data-tab-content>
+    const contentContainer = document.querySelector('#content');
+    const home = document.createElement('div');
+    home.classList.add('tab-content');
+    home.innerHTML = `<div id='home' class='active' data-tab-content>
     <div class='hero bg-img img'>
         <div class='center'>
         <h2>Find the right place to eat</h2>
@@ -35,6 +35,6 @@ home.innerHTML = `<div id='home' class='active' data-tab-content>
         </div>
     </div>
     `;
-    contentContainer.appendChild(home);
+contentContainer.appendChild(home);
 })();
-export { renderHomePage };
+export default renderHomePage;
