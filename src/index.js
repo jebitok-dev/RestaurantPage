@@ -1,3 +1,4 @@
+/*eslint no-unused-vars: ["error", { "caughtErrors": "none" }]*/
 import { loadPage } from './onload.js';
 import { renderHomePage } from './homepage.js';
 import { renderContactUs } from './contact-us.js';
@@ -12,8 +13,7 @@ burger.addEventListener('click', () => {
   burger.classList.toogle('toggle');
 });
 
-tabs.forEach((tab) =>
-  tab.addEventListener(
+tabs.forEach((tab) => tab.addEventListener(
     'click', (
     ) => {
       const target = document.querySelector(tab.dataset.tabTarget);
