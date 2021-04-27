@@ -21,7 +21,7 @@ To get this project up and running locally, you must already have ruby and rails
 - Run `cd RestaurantPage`
 ```
 
-<!-- - [Live Version](https://booklibrary-od.netlify.app/) -->
+- [Live Version](https://deal-restaurantjs.netlify.app/)
 
 <!-- ### Run Tests -->
 
