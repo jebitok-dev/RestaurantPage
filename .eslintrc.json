@@ -16,9 +16,6 @@
       "import/prefer-default-export": "off",
       "eol-last": "off",
       "no-unused-vars": "off",
-        "prettier/prettier": "error",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
         "react/jsx-filename-extension": [1, { "extensions": ["js", ".ts", ".tsx"] }],
         "import/prefer-default-export": "off",
         "no-use-before-define": ["off", { "functions": true, "classes": true }],
@@ -34,11 +31,6 @@
         }
         ],
         "import/no-named-default": "off"
-        },
-        "settings": {
-        "import/resolver": {
-        "typescript": {}
-        }
     },
     "ignorePatterns": [
       "dist/",
