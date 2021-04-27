@@ -1,4 +1,3 @@
-/*eslint no-unused-vars: ["error", { "caughtErrors": "none" }]*/
 import { loadPage } from './onload.js';
 import { renderHomePage } from './homepage.js';
 import { renderContactUs } from './contact-us.js';
@@ -15,18 +14,18 @@ burger.addEventListener('click', () => {
 
 tabs.forEach((tab) => tab.addEventListener(
     'click', (
-    ) => {
-      const target = document.querySelector(tab.dataset.tabTarget);
-      tabContents.forEach((tabContent) => {
-        tabContent.classList.remove('active');
-      });
-      tabs.forEach((tab) => {
-        tab.classList.remove('toggle');
-      });
-      tab.classList.add('red');
-      target.classList.add('active');
-    }
-  ));
+  ) => {
+  const target = document.querySelector(tab.dataset.tabTarget);
+    tabContents.forEach((tabContent) => {
+      tabContent.classList.remove('active');
+    });
+    tabs.forEach((tab) => {
+      tab.classList.remove('toggle');
+    });
+    tab.classList.add('red');
+    target.classList.add('active');
+  }
+));
 document.querySelector('.order-now').addEventListener('click', () => {
   document.querySelector(`[data-tab-target='#menu']`).classList.add('red');
 });
