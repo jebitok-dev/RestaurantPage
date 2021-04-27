@@ -28,11 +28,11 @@ tabs.forEach((tab) => tab.addEventListener(
     target.classList.add('active');
   }
 ));
-/*eslint quotes: [2, "backtick"]*/
+
 document.querySelector('.order-now').addEventListener('click', () => {
   document.querySelector(`[data-tab-target='#menu']`).classList.add('red');
 });
-/*eslint quotes: [2, "backtick"]*/
 document.querySelector(`[type='submit']`).addEventListener('click', () => {
   document.querySelector('form').reset();
 });
+/*eslint-enable */
