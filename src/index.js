@@ -3,7 +3,6 @@ import { loadPage } from './onload';
 import { renderHomePage } from './homepage';
 import { renderContactUs } from './contact-us';
 import { renderMenuPage } from './menu';
-/*eslint-enable */
 
 const tabs = document.querySelectorAll('[data-tab-target]');
 const tabContents = document.querySelectorAll('[data-tab-content]');
