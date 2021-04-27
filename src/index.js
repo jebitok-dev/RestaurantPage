@@ -34,4 +34,4 @@ document.querySelector('.order-now').addEventListener('click', () => {
 document.querySelector(`[type='submit']`).addEventListener('click', () => {
   document.querySelector('form').reset();
 });
-/*eslint-enable */
+/* eslint-enable */
