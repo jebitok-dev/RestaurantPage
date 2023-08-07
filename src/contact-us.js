@@ -17,7 +17,7 @@ const renderContactUs = (() => {
                 <input type='number' class='form-control' placeholder='+123 456 789' id='number'>
             </div>
             <div class='form-group'>
-                <input type='date' class='form-control' placeholder='1 Person' id='text'>
+                <input type='text' class='form-control' placeholder='1 Person' id='text'>
             </div>
             <div class='form-group'>
                 <input type='date' class='form-control' placeholder='mm/dd/yyyy' id='date'>
