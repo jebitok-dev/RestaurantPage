@@ -8,10 +8,10 @@ const renderHomePage = (() => {
         <h2>Find the right place to eat</h2>
             <form action='/' class='form-details'>
                 <div class='form-group'>
-                    <input type='email' class='form-control' placeholder='find' id='email'>
+                    <input type='text' class='form-control' placeholder='find' id='email'>
                 </div>
                 <div class='form-group'>
-                    <input type='password' class='form-control' placeholder='what do you want to eat?' id='pwd'>
+                    <input type='text class='form-control' placeholder='what do you want to eat?' id='pwd'>
                 </div>
                     <button type='submit' class='btn btn-light' data-tab-target='#menu'>SEARCH</button>
             </form>
